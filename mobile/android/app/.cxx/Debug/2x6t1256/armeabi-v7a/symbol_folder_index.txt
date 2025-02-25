@@ -1,0 +1,1 @@
+/home/marty/Desktop/Projects/FitTrack/android/app/build/intermediates/cxx/Debug/2x6t1256/obj/armeabi-v7a

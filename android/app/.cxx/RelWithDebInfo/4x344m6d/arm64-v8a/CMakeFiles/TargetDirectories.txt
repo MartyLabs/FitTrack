@@ -1,9 +1,0 @@
-/home/marty/Desktop/TEK5/Perso/NutriTrack/AwesomeProject/android/app/.cxx/RelWithDebInfo/4x344m6d/arm64-v8a/CMakeFiles/appmodules.dir
-/home/marty/Desktop/TEK5/Perso/NutriTrack/AwesomeProject/android/app/.cxx/RelWithDebInfo/4x344m6d/arm64-v8a/CMakeFiles/edit_cache.dir
-/home/marty/Desktop/TEK5/Perso/NutriTrack/AwesomeProject/android/app/.cxx/RelWithDebInfo/4x344m6d/arm64-v8a/CMakeFiles/rebuild_cache.dir
-/home/marty/Desktop/TEK5/Perso/NutriTrack/AwesomeProject/android/app/.cxx/RelWithDebInfo/4x344m6d/arm64-v8a/safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir
-/home/marty/Desktop/TEK5/Perso/NutriTrack/AwesomeProject/android/app/.cxx/RelWithDebInfo/4x344m6d/arm64-v8a/safeareacontext_autolinked_build/CMakeFiles/edit_cache.dir
-/home/marty/Desktop/TEK5/Perso/NutriTrack/AwesomeProject/android/app/.cxx/RelWithDebInfo/4x344m6d/arm64-v8a/safeareacontext_autolinked_build/CMakeFiles/rebuild_cache.dir
-/home/marty/Desktop/TEK5/Perso/NutriTrack/AwesomeProject/android/app/.cxx/RelWithDebInfo/4x344m6d/arm64-v8a/rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir
-/home/marty/Desktop/TEK5/Perso/NutriTrack/AwesomeProject/android/app/.cxx/RelWithDebInfo/4x344m6d/arm64-v8a/rnscreens_autolinked_build/CMakeFiles/edit_cache.dir
-/home/marty/Desktop/TEK5/Perso/NutriTrack/AwesomeProject/android/app/.cxx/RelWithDebInfo/4x344m6d/arm64-v8a/rnscreens_autolinked_build/CMakeFiles/rebuild_cache.dir

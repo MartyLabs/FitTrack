@@ -1,1 +1,0 @@
-/home/marty/Desktop/TEK5/Perso/NutriTrack/AwesomeProject/android/app/build/intermediates/cxx/RelWithDebInfo/4x344m6d/obj/x86_64

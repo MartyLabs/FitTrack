@@ -1,0 +1,1 @@
+require('dotenv').config() //Loads environment variables from a .env file (useful for storing API keys).

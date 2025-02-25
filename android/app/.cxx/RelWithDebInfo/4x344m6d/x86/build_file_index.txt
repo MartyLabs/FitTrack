@@ -1,1 +1,0 @@
-/home/marty/Desktop/TEK5/Perso/NutriTrack/AwesomeProject/node_modules/react-native/ReactAndroid/cmake-utils/default-app-setup/CMakeLists.txt

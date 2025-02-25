@@ -1,58 +1,126 @@
-# OSX
-#
+# Ignorer les fichiers spécifiques à macOS
 .DS_Store
 
-# Xcode
-#
-build/
-*.pbxuser
-!default.pbxuser
-*.mode1v3
-!default.mode1v3
-*.mode2v3
-!default.mode2v3
-*.perspectivev3
-!default.perspectivev3
-xcuserdata
-*.xccheckout
-*.moved-aside
-DerivedData
-*.hmap
-*.ipa
-*.xcuserstate
-project.xcworkspace
+# Android files
+mobile/android/.gradle/
+mobile/android/.idea/
+mobile/android/local.properties
+mobile/android/app/build/
+mobile/android/app/*.keystore
+mobile/android/captures/
+mobile/android/.cxx/
+mobile/android/gradle.properties
+mobile/android/gradlew
+mobile/android/gradlew.bat
+mobile/android/gradle/
+mobile/android/output.json
+mobile/android/app/src/main/assets/index.android.bundle
 
-# Android/IntelliJ
-#
-build/
-.idea
-.gradle
-local.properties
-*.iml
+# iOS files
+mobile/ios/Pods/
+mobile/ios/build/
+mobile/ios/.DS_Store
+mobile/ios/*.xcodeproj/project.xcworkspace/
+mobile/ios/*.xcworkspace/xcuserdata/
+mobile/ios/*.xcodeproj/xcuserdata/
+mobile/ios/*.pbxuser
+mobile/ios/*.mode1v3
+mobile/ios/*.mode2v3
+mobile/ios/*.perspectivev3
+mobile/ios/Flutter/App.framework
+mobile/ios/Flutter/Flutter.framework
+mobile/ios/Flutter/Flutter.podspec
 
-# node.js
-#
-node_modules/
-package-lock.json # include if you are using npm - don't use both yarn and npm
-npm-debug.log
-yarn-error.log
-yarn.lock # include if you are using yarn - don't use both npm and yarn
+# Metro bundler cache
+mobile/.metro-bundler-cache/
+mobile/.vscode/
+mobile/.expo/
+mobile/.expo-shared/
 
-# BUCK
-buck-out/
-\.buckd/
-*.keystore
+# React Native packager cache
+mobile/.cache/
 
-# Fastlane
-#
-# It is recommended to not store the screenshots in the git repo. Instead, use Fastlane to re-generate the
-# screenshots whenever they are needed.
-# For more information about the recommended setup visit:
-# https://docs.fastlane.tools/best-practices/source-control/
+# Build artifacts
+mobile/build/
+mobile/expo-build/
+mobile/dist/
+mobile/out/
 
-*/fastlane/report.xml
-*/fastlane/Preview.html
-*/fastlane/screenshots
+# Babel cache
+mobile/.babelrc
+mobile/.babelcache.json
+mobile/.expo/
+mobile/.expo-shared/
+mobile/metro.config.js
+mobile/metro.config.json
 
-# Bundle artifact
-*.jsbundle
+# Temporary files
+mobile/tmp/
+mobile/temp/
+mobile/ios/tmp/
+mobile/ios/temp/
+mobile/android/tmp/
+mobile/android/temp/
+
+# Fastlane metadata
+mobile/fastlane/report.xml
+mobile/fastlane/screenshots/
+mobile/fastlane/test_output/
+
+# CocoaPods dependencies
+mobile/ios/Pods/
+mobile/ios/Podfile.lock
+
+# Gradle
+mobile/android/.gradle/
+mobile/android/build/
+mobile/android/app/build/
+mobile/android/app/release/
+mobile/android/app/intermediates/
+mobile/android/app/output.json
+
+# NPM / Yarn
+mobile/node_modules/
+mobile/yarn.lock
+mobile/package-lock.json
+
+# Firebase / Google services
+mobile/android/app/google-services.json
+mobile/ios/GoogleService-Info.plist
+
+# Hermes
+mobile/android/app/build/generated/
+mobile/android/app/src/main/assets/
+mobile/ios/main.jsbundle
+mobile/android/app/src/main/jniLibs/
+
+# Lint
+mobile/.eslintcache
+
+# Debug and testing
+mobile/debug.log
+mobile/npm-debug.log
+mobile/yarn-debug.log
+mobile/jest-cache/
+mobile/coverage/
+mobile/.nyc_output/
+
+# Editor and IDE files
+mobile/.idea/
+mobile/.vscode/
+mobile/.history/
+mobile/.swp
+mobile/.swo
+mobile/.swn
+
+### 🔹 Node.js (backend/)
+backend/node_modules/
+backend/package-lock.json
+backend/npm-debug.log
+backend/yarn-error.log
+backend/yarn.lock
+backend/.env
+backend/serviceAccountKey.json
+backend/logs
+backend/*.log
+serviceAccountKey.json
