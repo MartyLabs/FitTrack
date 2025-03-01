@@ -46,7 +46,7 @@ app.get("/users", async (req, res) => {
       users.push({ id: doc.id, ...doc.data() });
     });
 
-    res.status(201).json(users);
+    res.status(200).json(users);
   } catch (error) {
     res.status(500).json({ error: "Error while getting users from firestore" });
   }
@@ -69,12 +69,10 @@ app.post("/:userId/workouts", async (req, res) => {
     };
 
     const docRef = await workoutRef.add(workout);
-    res
-      .status(201)
-      .json({
-        id: docRef.id,
-        message: "Workout has been created successfully",
-      });
+    res.status(201).json({
+      id: docRef.id,
+      message: "Workout has been created successfully",
+    });
   } catch (error) {
     res.status(500).json({ error: error.message });
   }
@@ -133,6 +131,13 @@ app.delete("/:userId/workouts/:workoutId", async (req, res) => {
 //Logs a message in the console when the server is running successfully.
 
 const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => {
-  console.log(`✅ Serveur en écoute sur le port ${PORT}`);
-});
+
+// Vérifier si le script est exécuté directement (production) ou testé
+if (process.env.NODE_ENV !== "test") {
+  app.listen(PORT, () => {
+    console.log(`✅ Serveur en écoute sur le port ${PORT}`);
+  });
+}
+
+// Exporter `app` pour les tests
+module.exports = app;
