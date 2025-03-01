@@ -1,0 +1,34 @@
+name: CI - Backend Node.js
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test-and-build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🛠️ Cloner le repo
+        uses: actions/checkout@v3
+
+      - name: 📦 Installer Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: 📦 Installer les dépendances
+        working-directory: backend
+        run: npm install
+
+      - name: 🔍 Lancer les tests unitaires
+        working-directory: backend
+        run: npm test
+
+      - name: 🚀 Déploiement sur Railway (si succès des tests)
+        if: success()
+        run: curl -X POST "https://railway.app/webhook/deploy/YOUR_RAILWAY_DEPLOY_HOOK"

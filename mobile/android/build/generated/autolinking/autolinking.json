@@ -1,14 +1,27 @@
 {
-  "root": "/home/marty/Desktop/Projects/FitTrack",
-  "reactNativePath": "/home/marty/Desktop/Projects/FitTrack/node_modules/react-native",
+  "root": "/home/marty/Desktop/Projects/FitTrack/mobile",
+  "reactNativePath": "/home/marty/Desktop/Projects/FitTrack/mobile/node_modules/react-native",
   "reactNativeVersion": "0.78",
   "dependencies": {
+    "react-native-vector-icons": {
+      "root": "/home/marty/Desktop/Projects/FitTrack/mobile/node_modules/react-native-vector-icons",
+      "name": "react-native-vector-icons",
+      "platforms": {
+        "ios": {
+          "podspecPath": "/home/marty/Desktop/Projects/FitTrack/mobile/node_modules/react-native-vector-icons/RNVectorIcons.podspec",
+          "version": "10.2.0",
+          "configurations": [],
+          "scriptPhases": []
+        },
+        "android": null
+      }
+    },
     "@react-native-firebase/app": {
-      "root": "/home/marty/Desktop/Projects/FitTrack/node_modules/@react-native-firebase/app",
+      "root": "/home/marty/Desktop/Projects/FitTrack/mobile/node_modules/@react-native-firebase/app",
       "name": "@react-native-firebase/app",
       "platforms": {
         "ios": {
-          "podspecPath": "/home/marty/Desktop/Projects/FitTrack/node_modules/@react-native-firebase/app/RNFBApp.podspec",
+          "podspecPath": "/home/marty/Desktop/Projects/FitTrack/mobile/node_modules/@react-native-firebase/app/RNFBApp.podspec",
           "version": "21.11.0",
           "configurations": [],
           "scriptPhases": [
@@ -23,12 +36,12 @@
           ]
         },
         "android": {
-          "sourceDir": "/home/marty/Desktop/Projects/FitTrack/node_modules/@react-native-firebase/app/android",
+          "sourceDir": "/home/marty/Desktop/Projects/FitTrack/mobile/node_modules/@react-native-firebase/app/android",
           "packageImportPath": "import io.invertase.firebase.app.ReactNativeFirebaseAppPackage;",
           "packageInstance": "new ReactNativeFirebaseAppPackage()",
           "buildTypes": [],
           "componentDescriptors": [],
-          "cmakeListsPath": "/home/marty/Desktop/Projects/FitTrack/node_modules/@react-native-firebase/app/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cmakeListsPath": "/home/marty/Desktop/Projects/FitTrack/mobile/node_modules/@react-native-firebase/app/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -37,22 +50,22 @@
       }
     },
     "@react-native-firebase/auth": {
-      "root": "/home/marty/Desktop/Projects/FitTrack/node_modules/@react-native-firebase/auth",
+      "root": "/home/marty/Desktop/Projects/FitTrack/mobile/node_modules/@react-native-firebase/auth",
       "name": "@react-native-firebase/auth",
       "platforms": {
         "ios": {
-          "podspecPath": "/home/marty/Desktop/Projects/FitTrack/node_modules/@react-native-firebase/auth/RNFBAuth.podspec",
+          "podspecPath": "/home/marty/Desktop/Projects/FitTrack/mobile/node_modules/@react-native-firebase/auth/RNFBAuth.podspec",
           "version": "21.11.0",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/home/marty/Desktop/Projects/FitTrack/node_modules/@react-native-firebase/auth/android",
+          "sourceDir": "/home/marty/Desktop/Projects/FitTrack/mobile/node_modules/@react-native-firebase/auth/android",
           "packageImportPath": "import io.invertase.firebase.auth.ReactNativeFirebaseAuthPackage;",
           "packageInstance": "new ReactNativeFirebaseAuthPackage()",
           "buildTypes": [],
           "componentDescriptors": [],
-          "cmakeListsPath": "/home/marty/Desktop/Projects/FitTrack/node_modules/@react-native-firebase/auth/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cmakeListsPath": "/home/marty/Desktop/Projects/FitTrack/mobile/node_modules/@react-native-firebase/auth/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -61,22 +74,22 @@
       }
     },
     "@react-native-firebase/firestore": {
-      "root": "/home/marty/Desktop/Projects/FitTrack/node_modules/@react-native-firebase/firestore",
+      "root": "/home/marty/Desktop/Projects/FitTrack/mobile/node_modules/@react-native-firebase/firestore",
       "name": "@react-native-firebase/firestore",
       "platforms": {
         "ios": {
-          "podspecPath": "/home/marty/Desktop/Projects/FitTrack/node_modules/@react-native-firebase/firestore/RNFBFirestore.podspec",
+          "podspecPath": "/home/marty/Desktop/Projects/FitTrack/mobile/node_modules/@react-native-firebase/firestore/RNFBFirestore.podspec",
           "version": "21.11.0",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/home/marty/Desktop/Projects/FitTrack/node_modules/@react-native-firebase/firestore/android",
+          "sourceDir": "/home/marty/Desktop/Projects/FitTrack/mobile/node_modules/@react-native-firebase/firestore/android",
           "packageImportPath": "import io.invertase.firebase.firestore.ReactNativeFirebaseFirestorePackage;",
           "packageInstance": "new ReactNativeFirebaseFirestorePackage()",
           "buildTypes": [],
           "componentDescriptors": [],
-          "cmakeListsPath": "/home/marty/Desktop/Projects/FitTrack/node_modules/@react-native-firebase/firestore/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cmakeListsPath": "/home/marty/Desktop/Projects/FitTrack/mobile/node_modules/@react-native-firebase/firestore/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -85,22 +98,100 @@
       }
     },
     "@react-native-firebase/messaging": {
-      "root": "/home/marty/Desktop/Projects/FitTrack/node_modules/@react-native-firebase/messaging",
+      "root": "/home/marty/Desktop/Projects/FitTrack/mobile/node_modules/@react-native-firebase/messaging",
       "name": "@react-native-firebase/messaging",
       "platforms": {
         "ios": {
-          "podspecPath": "/home/marty/Desktop/Projects/FitTrack/node_modules/@react-native-firebase/messaging/RNFBMessaging.podspec",
+          "podspecPath": "/home/marty/Desktop/Projects/FitTrack/mobile/node_modules/@react-native-firebase/messaging/RNFBMessaging.podspec",
           "version": "21.11.0",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/home/marty/Desktop/Projects/FitTrack/node_modules/@react-native-firebase/messaging/android",
+          "sourceDir": "/home/marty/Desktop/Projects/FitTrack/mobile/node_modules/@react-native-firebase/messaging/android",
           "packageImportPath": "import io.invertase.firebase.messaging.ReactNativeFirebaseMessagingPackage;",
           "packageInstance": "new ReactNativeFirebaseMessagingPackage()",
           "buildTypes": [],
           "componentDescriptors": [],
-          "cmakeListsPath": "/home/marty/Desktop/Projects/FitTrack/node_modules/@react-native-firebase/messaging/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cmakeListsPath": "/home/marty/Desktop/Projects/FitTrack/mobile/node_modules/@react-native-firebase/messaging/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cxxModuleCMakeListsModuleName": null,
+          "cxxModuleCMakeListsPath": null,
+          "cxxModuleHeaderName": null,
+          "isPureCxxDependency": false
+        }
+      }
+    },
+    "@react-native-vector-icons/common": {
+      "root": "/home/marty/Desktop/Projects/FitTrack/mobile/node_modules/@react-native-vector-icons/common",
+      "name": "@react-native-vector-icons/common",
+      "platforms": {
+        "ios": {
+          "podspecPath": "/home/marty/Desktop/Projects/FitTrack/mobile/node_modules/@react-native-vector-icons/common/react-native-vector-icons.podspec",
+          "version": "11.0.0",
+          "configurations": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "/home/marty/Desktop/Projects/FitTrack/mobile/node_modules/@react-native-vector-icons/common/android",
+          "packageImportPath": "import com.reactnativevectoricons.common.VectorIconsPackage;",
+          "packageInstance": "new VectorIconsPackage()",
+          "buildTypes": [],
+          "libraryName": "RNVectorIconsSpec",
+          "componentDescriptors": [],
+          "cmakeListsPath": "/home/marty/Desktop/Projects/FitTrack/mobile/node_modules/@react-native-vector-icons/common/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cxxModuleCMakeListsModuleName": null,
+          "cxxModuleCMakeListsPath": null,
+          "cxxModuleHeaderName": null,
+          "isPureCxxDependency": false
+        }
+      }
+    },
+    "react-native-gesture-handler": {
+      "root": "/home/marty/Desktop/Projects/FitTrack/mobile/node_modules/react-native-gesture-handler",
+      "name": "react-native-gesture-handler",
+      "platforms": {
+        "ios": {
+          "podspecPath": "/home/marty/Desktop/Projects/FitTrack/mobile/node_modules/react-native-gesture-handler/RNGestureHandler.podspec",
+          "version": "2.24.0",
+          "configurations": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "/home/marty/Desktop/Projects/FitTrack/mobile/node_modules/react-native-gesture-handler/android",
+          "packageImportPath": "import com.swmansion.gesturehandler.RNGestureHandlerPackage;",
+          "packageInstance": "new RNGestureHandlerPackage()",
+          "buildTypes": [],
+          "libraryName": "rngesturehandler_codegen",
+          "componentDescriptors": [
+            "RNGestureHandlerButtonComponentDescriptor",
+            "RNGestureHandlerRootViewComponentDescriptor"
+          ],
+          "cmakeListsPath": "/home/marty/Desktop/Projects/FitTrack/mobile/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cxxModuleCMakeListsModuleName": null,
+          "cxxModuleCMakeListsPath": null,
+          "cxxModuleHeaderName": null,
+          "isPureCxxDependency": false
+        }
+      }
+    },
+    "react-native-reanimated": {
+      "root": "/home/marty/Desktop/Projects/FitTrack/mobile/node_modules/react-native-reanimated",
+      "name": "react-native-reanimated",
+      "platforms": {
+        "ios": {
+          "podspecPath": "/home/marty/Desktop/Projects/FitTrack/mobile/node_modules/react-native-reanimated/RNReanimated.podspec",
+          "version": "3.17.1",
+          "configurations": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "/home/marty/Desktop/Projects/FitTrack/mobile/node_modules/react-native-reanimated/android",
+          "packageImportPath": "import com.swmansion.reanimated.ReanimatedPackage;",
+          "packageInstance": "new ReanimatedPackage()",
+          "buildTypes": [],
+          "libraryName": "rnreanimated",
+          "componentDescriptors": [],
+          "cmakeListsPath": "/home/marty/Desktop/Projects/FitTrack/mobile/node_modules/react-native-reanimated/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -109,17 +200,17 @@
       }
     },
     "react-native-safe-area-context": {
-      "root": "/home/marty/Desktop/Projects/FitTrack/node_modules/react-native-safe-area-context",
+      "root": "/home/marty/Desktop/Projects/FitTrack/mobile/node_modules/react-native-safe-area-context",
       "name": "react-native-safe-area-context",
       "platforms": {
         "ios": {
-          "podspecPath": "/home/marty/Desktop/Projects/FitTrack/node_modules/react-native-safe-area-context/react-native-safe-area-context.podspec",
+          "podspecPath": "/home/marty/Desktop/Projects/FitTrack/mobile/node_modules/react-native-safe-area-context/react-native-safe-area-context.podspec",
           "version": "5.2.0",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/home/marty/Desktop/Projects/FitTrack/node_modules/react-native-safe-area-context/android",
+          "sourceDir": "/home/marty/Desktop/Projects/FitTrack/mobile/node_modules/react-native-safe-area-context/android",
           "packageImportPath": "import com.th3rdwave.safeareacontext.SafeAreaContextPackage;",
           "packageInstance": "new SafeAreaContextPackage()",
           "buildTypes": [],
@@ -128,7 +219,7 @@
             "RNCSafeAreaProviderComponentDescriptor",
             "RNCSafeAreaViewComponentDescriptor"
           ],
-          "cmakeListsPath": "/home/marty/Desktop/Projects/FitTrack/node_modules/react-native-safe-area-context/android/src/main/jni/CMakeLists.txt",
+          "cmakeListsPath": "/home/marty/Desktop/Projects/FitTrack/mobile/node_modules/react-native-safe-area-context/android/src/main/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -137,17 +228,17 @@
       }
     },
     "react-native-screens": {
-      "root": "/home/marty/Desktop/Projects/FitTrack/node_modules/react-native-screens",
+      "root": "/home/marty/Desktop/Projects/FitTrack/mobile/node_modules/react-native-screens",
       "name": "react-native-screens",
       "platforms": {
         "ios": {
-          "podspecPath": "/home/marty/Desktop/Projects/FitTrack/node_modules/react-native-screens/RNScreens.podspec",
-          "version": "4.9.0",
+          "podspecPath": "/home/marty/Desktop/Projects/FitTrack/mobile/node_modules/react-native-screens/RNScreens.podspec",
+          "version": "4.9.1",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/home/marty/Desktop/Projects/FitTrack/node_modules/react-native-screens/android",
+          "sourceDir": "/home/marty/Desktop/Projects/FitTrack/mobile/node_modules/react-native-screens/android",
           "packageImportPath": "import com.swmansion.rnscreens.RNScreensPackage;",
           "packageInstance": "new RNScreensPackage()",
           "buildTypes": [],
@@ -165,7 +256,62 @@
             "RNSScreenContentWrapperComponentDescriptor",
             "RNSModalScreenComponentDescriptor"
           ],
-          "cmakeListsPath": "/home/marty/Desktop/Projects/FitTrack/node_modules/react-native-screens/android/src/main/jni/CMakeLists.txt",
+          "cmakeListsPath": "/home/marty/Desktop/Projects/FitTrack/mobile/node_modules/react-native-screens/android/src/main/jni/CMakeLists.txt",
+          "cxxModuleCMakeListsModuleName": null,
+          "cxxModuleCMakeListsPath": null,
+          "cxxModuleHeaderName": null,
+          "isPureCxxDependency": false
+        }
+      }
+    },
+    "react-native-svg": {
+      "root": "/home/marty/Desktop/Projects/FitTrack/mobile/node_modules/react-native-svg",
+      "name": "react-native-svg",
+      "platforms": {
+        "ios": {
+          "podspecPath": "/home/marty/Desktop/Projects/FitTrack/mobile/node_modules/react-native-svg/RNSVG.podspec",
+          "version": "15.11.2",
+          "configurations": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "/home/marty/Desktop/Projects/FitTrack/mobile/node_modules/react-native-svg/android",
+          "packageImportPath": "import com.horcrux.svg.SvgPackage;",
+          "packageInstance": "new SvgPackage()",
+          "buildTypes": [],
+          "libraryName": "rnsvg",
+          "componentDescriptors": [
+            "RNSVGCircleComponentDescriptor",
+            "RNSVGClipPathComponentDescriptor",
+            "RNSVGDefsComponentDescriptor",
+            "RNSVGFeBlendComponentDescriptor",
+            "RNSVGFeColorMatrixComponentDescriptor",
+            "RNSVGFeCompositeComponentDescriptor",
+            "RNSVGFeFloodComponentDescriptor",
+            "RNSVGFeGaussianBlurComponentDescriptor",
+            "RNSVGFeMergeComponentDescriptor",
+            "RNSVGFeOffsetComponentDescriptor",
+            "RNSVGFilterComponentDescriptor",
+            "RNSVGEllipseComponentDescriptor",
+            "RNSVGForeignObjectComponentDescriptor",
+            "RNSVGGroupComponentDescriptor",
+            "RNSVGImageComponentDescriptor",
+            "RNSVGLinearGradientComponentDescriptor",
+            "RNSVGLineComponentDescriptor",
+            "RNSVGMarkerComponentDescriptor",
+            "RNSVGMaskComponentDescriptor",
+            "RNSVGPathComponentDescriptor",
+            "RNSVGPatternComponentDescriptor",
+            "RNSVGRadialGradientComponentDescriptor",
+            "RNSVGRectComponentDescriptor",
+            "RNSVGSvgViewAndroidComponentDescriptor",
+            "RNSVGSymbolComponentDescriptor",
+            "RNSVGTextComponentDescriptor",
+            "RNSVGTextPathComponentDescriptor",
+            "RNSVGTSpanComponentDescriptor",
+            "RNSVGUseComponentDescriptor"
+          ],
+          "cmakeListsPath": "/home/marty/Desktop/Projects/FitTrack/mobile/node_modules/react-native-svg/android/src/main/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -336,7 +482,7 @@
         {
           "name": "--path <path>",
           "description": "Path to the React Native project root.",
-          "default": "/home/marty/Desktop/Projects/FitTrack"
+          "default": "/home/marty/Desktop/Projects/FitTrack/mobile"
         },
         {
           "name": "--platform <string>",
@@ -625,10 +771,13 @@
     "ios": {},
     "android": {}
   },
-  "assets": [],
+  "assets": [
+    "./node_modules/react-native-vector-icons/Fonts",
+    "./src/assets/fonts/"
+  ],
   "project": {
     "ios": {
-      "sourceDir": "/home/marty/Desktop/Projects/FitTrack/ios",
+      "sourceDir": "/home/marty/Desktop/Projects/FitTrack/mobile/ios",
       "xcodeProject": {
         "name": "AwesomeProject.xcodeproj",
         "path": ".",
@@ -637,7 +786,7 @@
       "assets": []
     },
     "android": {
-      "sourceDir": "/home/marty/Desktop/Projects/FitTrack/android",
+      "sourceDir": "/home/marty/Desktop/Projects/FitTrack/mobile/android",
       "appName": "app",
       "packageName": "com.fittrack.app",
       "applicationId": "com.fittrack.app",
