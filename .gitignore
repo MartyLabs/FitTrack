@@ -9,6 +9,7 @@ mobile/android/app/build/
 mobile/android/app/*.keystore
 mobile/android/captures/
 mobile/android/.cxx/
+mobile/android/app/.cxx/
 mobile/android/gradle.properties
 mobile/android/gradlew
 mobile/android/gradlew.bat
