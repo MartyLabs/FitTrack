@@ -12,10 +12,19 @@ const admin = require("firebase-admin"); //SDK that allows backend applications 
 const { FieldValue } = require("firebase-admin/firestore");
 
 // Construire dynamiquement l'objet credentials Firebase
+const privateKey = process.env.FIREBASE_PRIVATE_KEY
+  ? process.env.FIREBASE_PRIVATE_KEY.replace(/\\n/g, "\n")
+  : undefined;
+
+if (!privateKey) {
+  console.error("❌ Erreur : FIREBASE_PRIVATE_KEY n'est pas défini !");
+  process.exit(1);
+}
+
 const serviceAccount = {
   projectId: process.env.FIREBASE_PROJECT_ID,
   clientEmail: process.env.FIREBASE_CLIENT_EMAIL,
-  privateKey: process.env.FIREBASE_PRIVATE_KEY.replace(/\\n/g, "\n"),
+  privateKey,
 };
 
 admin.initializeApp({
