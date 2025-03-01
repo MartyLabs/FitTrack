@@ -9,8 +9,14 @@ const admin = require("firebase-admin"); //SDK that allows backend applications 
 //databaseURL → The Firebase database URL (used only if you're using Realtime Database, not Firestore).
 //const db = admin.firestore(); → Connects the Firebase Admin SDK to Firestore (our NoSQL database).
 
-const serviceAccount = require("./serviceAccountKey.json");
 const { FieldValue } = require("firebase-admin/firestore");
+
+// Construire dynamiquement l'objet credentials Firebase
+const serviceAccount = {
+  projectId: process.env.FIREBASE_PROJECT_ID,
+  clientEmail: process.env.FIREBASE_CLIENT_EMAIL,
+  privateKey: process.env.FIREBASE_PRIVATE_KEY.replace(/\\n/g, "\n"),
+};
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
