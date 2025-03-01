@@ -124,4 +124,5 @@ backend/.env
 backend/serviceAccountKey.json
 backend/logs
 backend/*.log
+backend/coverage/
 serviceAccountKey.json
